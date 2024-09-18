@@ -28,8 +28,8 @@ public class MainForm extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        Name = new javax.swing.JLabel();
+        Number = new javax.swing.JLabel();
         txtName = new javax.swing.JTextField();
         txtNumber = new javax.swing.JTextField();
         Create = new javax.swing.JButton();
@@ -42,9 +42,9 @@ public class MainForm extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Name");
+        Name.setText("Name");
 
-        jLabel2.setText("Number");
+        Number.setText("Number");
 
         txtNumber.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -110,8 +110,8 @@ public class MainForm extends javax.swing.JFrame {
                         .addComponent(Clear))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2))
+                            .addComponent(Name)
+                            .addComponent(Number))
                         .addGap(52, 52, 52)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(txtName, javax.swing.GroupLayout.DEFAULT_SIZE, 277, Short.MAX_VALUE)
@@ -125,11 +125,11 @@ public class MainForm extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(48, 48, 48)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
+                    .addComponent(Name)
                     .addComponent(txtName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(25, 25, 25)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
+                    .addComponent(Number)
                     .addComponent(txtNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(56, 56, 56)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -232,10 +232,10 @@ public class MainForm extends javax.swing.JFrame {
     private javax.swing.JButton Create;
     private javax.swing.JButton Delete;
     private javax.swing.JTextArea MostrarTexto;
+    private javax.swing.JLabel Name;
+    private javax.swing.JLabel Number;
     private javax.swing.JButton Read;
     private javax.swing.JButton Update;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField txtName;
     private javax.swing.JTextField txtNumber;
